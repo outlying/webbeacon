@@ -33,7 +33,7 @@ public class MainActivity extends Activity implements TextWatcher, View.OnClickL
         editTextUrl.addTextChangedListener( this );
 
         if(BuildConfig.DEBUG){
-            editTextUrl.setText( "http://192.168.1.100/Workspace/test.html" );
+            editTextUrl.setText( "http://192.168.1.84/Workspace/test.html" );
         }
     }
 
